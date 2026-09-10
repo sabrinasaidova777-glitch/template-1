@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.header_content {
+    padding-top: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    height: 772px;
+    padding-bottom: 133px;
+}
+
+.navbar_menu-info {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.header {
+    background-image: url("../img/travel.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.banner-text_pre-head {
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.banner-text_description {
+    color: whitesmoke;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+a {
+    color: white;
+}
